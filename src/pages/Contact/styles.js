@@ -2,7 +2,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const Container = styled.section`
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
   min-height: 100vh;
@@ -10,6 +10,19 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -26,7 +39,7 @@ export const Content = styled.div`
 
   @media (max-width: 768px) {
     width: 300px;
-    top: 20%;
+    top: 12%;
   }
 `;
 
@@ -170,9 +183,15 @@ export const ContentInfo = styled.div`
   min-height: 600px;
 
   @media (max-width: 768px) {
-    top: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    top: 65%;
+    left: 20%;
     padding: 10px;
-    min-height: 400px;
+    min-height: 200px;
+    min-width: 250px;
   }
 
   .box-info {
@@ -184,12 +203,8 @@ export const ContentInfo = styled.div`
     gap: 20px;
 
     @media (max-width: 768px) {
-      position: absolute;
-      top: 30%;
-      margin-left: 50px;
-      width: 300px;
-      height: 200px;
-      padding: 10px;
+      width: 210px;
+      height: 55px;
       gap: 0px;
     }
 
@@ -229,11 +244,9 @@ export const BoxDownload = styled.div`
   padding: 20px;
 
   @media (max-width: 768px) {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 300px;
-    height: 200px;
+    align-items: center;
+    width: 200px;
+    height: 80px;
     padding: 10px;
     gap: 5px;
   }
@@ -260,7 +273,6 @@ export const BoxDownload = styled.div`
     @media (max-width: 768px) {
       width: 100px;
       height: 30px;
-      margin-left: 90px;
     }
 
     p {

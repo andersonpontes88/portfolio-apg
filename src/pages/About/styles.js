@@ -4,7 +4,8 @@ export const Container = styled.section`
   padding: 20px 10px;
   background: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   position: relative;
 `;
 

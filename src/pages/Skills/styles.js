@@ -49,7 +49,7 @@ export const ContentTitle = styled.div`
     text-align: start;
     line-height: 2;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #6e43cb;
 
     @media (max-width: 700px) {
@@ -58,9 +58,13 @@ export const ContentTitle = styled.div`
   }
 
   p {
-    font-size: 12px;
+    font-size: 16px;
     text-align: start;
     color: ${({ theme }) => theme.colors.text};
+
+    @media (max-width: 700px) {
+      font-size: 12px;
+    }
   }
 `;
 

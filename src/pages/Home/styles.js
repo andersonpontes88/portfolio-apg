@@ -6,6 +6,7 @@ export const Container = styled.section`
   align-items: center;
   padding: 0 20px;
   height: 100vh;
+  width: 100%;
   background-color: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
   position: relative;

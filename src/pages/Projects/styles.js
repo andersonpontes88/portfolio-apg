@@ -17,6 +17,10 @@ export const Container = styled.section`
 export const BoxSticket = styled.div`
   position: absolute;
   top: 100px;
+
+  @media (max-width: 768px) {
+    top: 80px;
+  }
 `;
 
 export const ProjectsGrid = styled.div`
@@ -30,6 +34,7 @@ export const ProjectsGrid = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 140px;
+    margin-top: 100px;
   }
 `;
 

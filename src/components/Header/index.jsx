@@ -70,7 +70,6 @@ const Header = () => {
             smooth={true}
             duration={500}
             spy={true}
-            offset={-70}
             className={activeSection === "home" ? "active" : ""}
             onClick={() => setOpenMenu(false)}
           >
@@ -81,7 +80,6 @@ const Header = () => {
             smooth={true}
             duration={500}
             spy={true}
-            offset={-70}
             className={activeSection === "about" ? "active" : ""}
             onClick={() => setOpenMenu(false)}
           >
@@ -92,7 +90,6 @@ const Header = () => {
             smooth={true}
             duration={500}
             spy={true}
-            offset={-70}
             className={activeSection === "projects" ? "active" : ""}
             onClick={() => setOpenMenu(false)}
           >
@@ -103,7 +100,6 @@ const Header = () => {
             smooth={true}
             duration={500}
             spy={true}
-            offset={-70}
             className={activeSection === "skills" ? "active" : ""}
             onClick={() => setOpenMenu(false)}
           >
@@ -114,7 +110,6 @@ const Header = () => {
             smooth={true}
             duration={500}
             spy={true}
-            offset={-70}
             className={activeSection === "contact" ? "active" : ""}
             onClick={() => setOpenMenu(false)}
           >

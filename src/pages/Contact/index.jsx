@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import { BsSend, BsSendCheck } from "react-icons/bs";
 import { FaFileDownload } from "react-icons/fa";
 import LogoImg from "../../assets/svg/MinhaLogo-2.svg";
+import Footer from "../../components/Footer";
 import {
   Container,
   Form,
@@ -152,6 +153,10 @@ const Contact = () => {
       >
         <img src={LogoImg} alt="Imagem da Logomarca" />
       </ContentLogo>
+
+      <div className="footer">
+        <Footer />
+      </div>
     </Container>
   );
 };

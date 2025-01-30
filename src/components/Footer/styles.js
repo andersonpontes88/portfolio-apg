@@ -4,19 +4,20 @@ export const Container = styled.footer`
   background-color: ${({ theme }) => theme.colors.background};
   border-top: 2px solid #33333350;
   text-align: center;
-  padding: 20px 0;
+  padding: 0 10px;
   color: ${({ theme }) => theme.colors.text};
+  z-index: 1000;
 `;
 
 export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    gap: 10px;
+    padding-top: 5px;
   }
 
   p {
