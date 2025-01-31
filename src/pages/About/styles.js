@@ -35,7 +35,7 @@ export const Content = styled.div`
 
   @media (max-width: 768px) {
     padding: 0 20px;
-    top: 15%;
+    top: 20%;
     left: 0;
   }
 `;
@@ -47,7 +47,7 @@ export const BoxSticket = styled.div`
   top: 20%;
 
   @media (max-width: 768px) {
-    top: 5%;
+    top: 10%;
     left: 5%;
   }
 `;
@@ -119,7 +119,7 @@ export const ContentImg = styled.div`
   @media (max-width: 768px) {
     height: 130px;
     width: 130px;
-    top: 57%;
+    top: 60%;
     left: 20%;
   }
 `;

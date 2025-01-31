@@ -74,6 +74,7 @@ export const SubTitle = styled.h4`
 export const Buttons = styled.div`
   display: flex;
   gap: 10px;
+  z-index: 100;
 
   a {
     display: flex;
